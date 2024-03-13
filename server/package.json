@@ -1,0 +1,18 @@
+{
+  "name": "@i18n-web-ai/server",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "dev": "bun --watch ./index.ts"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^0.8.0",
+    "elysia": "^0.8.17"
+  }
+}

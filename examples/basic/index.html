@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My front-end app</title>
+</head>
+<body>
+    <h1 data-i18n-key="body-title">Hello world</h1>
+    <script type="module">
+        import i18n from '/dist/bundle.js'
+        i18n.init({
+            adminMode:true
+        })
+    </script>
+</body>
+</html>

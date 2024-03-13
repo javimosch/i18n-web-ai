@@ -1,0 +1,14 @@
+{
+  "name": "@i18n-web-ai",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "dev":"bun build ./index.ts --outfile=dist/bundle.js --sourcemap --watch --target=browser"
+  }
+}
